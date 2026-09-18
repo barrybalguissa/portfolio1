@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <NavBar />
-    <Projects />
+    <main class="content">
       <router-view />
+    </main>
   </div>
   <footer>
     <p>&copy; Mise a jour : 24/06/2024.</p>
