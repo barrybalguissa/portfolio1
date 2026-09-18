@@ -31,12 +31,17 @@ export default {
   min-height: 100vh;
   text-align: center;
   font-family: Arial, sans-serif;
- 
 }
+
+.content {
+  flex: 1;
+  padding: 20px;
+  color: white;
+}
+
 footer {
   background-size: cover;
   text-align: center;
   padding: 10px 0;
 }
-
 </style>
