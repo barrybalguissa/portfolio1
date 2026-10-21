@@ -24,7 +24,9 @@ export default {
 <style scoped>
 #app {
   display: flex;
-  background-image: url('@/assets/background-image.jpg');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('@/assets/background-image.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

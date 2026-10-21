@@ -2,9 +2,11 @@
   <nav class="navbar">
     <ul class="nav-list">
       <li class="nav-item"><router-link to="/">Accueil</router-link></li>
-      <li class="nav-item"><router-link to="/about">À propos</router-link></li>
+      <li class="nav-item"><router-link to="/about">A propos</router-link></li>
       <li class="nav-item"><router-link to="/projects">Projets</router-link></li>
       <li class="nav-item"><router-link to="/contact">Contacts</router-link></li>
+      <li class="nav-item"><router-link to="/experiences">Experiences</router-link></li>
+      <li class="nav-item"><router-link to="/competences">Competences</router-link></li>
     </ul>
   </nav>
 </template>

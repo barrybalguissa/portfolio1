@@ -1,32 +1,36 @@
 <template>
   <div class="home">
-    <h1 class="title">BIENVENU SUR MON PORTFOLIO</h1>
+    <h1 class="title">BIENVENUE SUR MON PORTFOLIO</h1>
   </div>
 </template>
 
 <script>
-import ProjectScript from "./ProjectScript.vue";
-
 export default {
-  name: "HomeSection",
-  ProjectScript,
+  name: "HomeSection"
 };
 </script>
 
 <style scoped>
 .home {
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
   text-align: center;
-  font-size: 1.5rem;
 }
 
 .title {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
   color: yellow;
-  position: absolute;
-  right: 400px;
-  top: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
 }
 </style>
