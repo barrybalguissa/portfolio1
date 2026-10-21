@@ -13,7 +13,7 @@ export default {
   name: "CompetencesPage",
   data() {
     return {
-      competences: [
+    competences: [
         "Python",
         "Java",
         "OCaml",
@@ -21,7 +21,10 @@ export default {
         "XML",
         "Machine virtuelle",
         "Assembleur Hack",
-        "Développement web avec Django",
+        "HTML/CSS",
+        "JavaScript",
+        "Vue.js",
+        "Django",
         "Git",
         "SQL",
         "PL/SQL"
