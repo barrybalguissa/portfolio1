@@ -1,6 +1,25 @@
 <template>
   <div class="contact">
     <h1>Contactez-moi</h1>
+  <div class="contact-infos">
+  <p>
+    <strong>Email :</strong>
+    <a href="mailto:balguissabarry43@gmail.com">balguissabarry43@gmail.com</a>
+  </p>
+  <p>
+    <strong>LinkedIn :</strong>
+    <a href="https://www.linkedin.com/in/balguissa-barry-2b352a275/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BCOJtpMNvQui4zC3tDvhm8A%3D%3D" target="_blank" rel="noopener noreferrer">
+      linkedin.com/in/Balguissa-Barry
+    </a>
+  </p>
+  <p>
+    <strong>GitHub :</strong>
+    <a href="https://github.com/barrybalguissa/portfolio1" target="_blank" rel="noopener noreferrer">
+      github.com/barrybalguissa
+    </a>
+  </p>
+</div>
+
     <form>
       <div class="form-group">
         <label for="name">Nom:</label>
@@ -26,6 +45,7 @@ export default {
 </script>
 
 <style scoped>
+
 .contact {
   max-width: 600px;
   margin: 0 auto;
